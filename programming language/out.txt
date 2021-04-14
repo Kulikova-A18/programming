@@ -24,4 +24,14 @@ Year of programming language:1975
 Inheritance: multiple
 Year of programming language:2010
 
+7: Incorrect type of language!
+
+8: Incorrect type of language!
+
+9: Incorrect type of language!
+
+10: Incorrect type of language!
+
+11: Incorrect type of language!
+
 Container is empty!
