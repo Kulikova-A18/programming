@@ -1,0 +1,27 @@
+Container contains that elements:
+
+0: Incorrect type of language!
+
+1: Procedural.
+Abstrat data type = 0
+Year of programming language:1953
+
+2: Procedural.
+Abstrat data type = 1
+Year of programming language:1971
+
+3: Object-Oriented.
+Inheritance: single
+Year of programming language:1970
+
+4: Object-Oriented.
+Inheritance: interface
+Year of programming language:1975
+
+5: Incorrect type of language!
+
+6: Object-Oriented.
+Inheritance: multiple
+Year of programming language:2010
+
+Container is empty!

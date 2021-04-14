@@ -1,0 +1,19 @@
+﻿  Container_Constr.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Container_In.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Container_Out.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Language_In.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language_In.cpp(8,6): warning C4101: inh: неиспользованная локальная переменная
+  Language_Out.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  main.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  ObjectOriented_In.cpp
+  ObjectOriented_Out.cpp
+  Procedural_In.cpp
+  Procedural_Out.cpp
+  Создание кода...
+  programming language.vcxproj -> C:\Users\USER\Desktop\TIMP\PROC\programming\x64\Debug\programming language.exe
