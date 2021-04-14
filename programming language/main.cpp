@@ -3,10 +3,14 @@
 #include <string>
 #include "Container.h"
 using namespace std;
+
 void Init(Container &c);
 void Clear(Container *&c);
 void In(Container &c, ifstream &ifst);
 void Out(Container &c, ofstream &ofst);
+
+void Sort(Container*& c);
+
 int main(int argc, char* argv[]) {
 	if (argc != 3) {
 		cout << "incorrect command line! Waited: command in_file out_file" << endl;
@@ -19,6 +23,13 @@ int main(int argc, char* argv[]) {
 	Init(*c);
 	In(*c, ifst);
 	Out(*c, ofst);
+
+	cout << "The Sort!" << endl;
+	ofst << endl << endl << "Sorted Container." << endl;
+	Sort(c);
+	Out(*c, ofst);
+
+	ofst << endl << endl << "Cleared Container." << endl;
 	Clear(c);
 	Out(*c, ofst);
 	cout << "The Finish!" << endl;

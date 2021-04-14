@@ -9,4 +9,5 @@ struct ObjectOriented{
 	};
 	inheritance mInher;
 	short int Year;
+	int mRef;
 };

@@ -120,6 +120,7 @@
     <ClCompile Include="Container_Out.cpp" />
     <ClCompile Include="Functional_In.cpp" />
     <ClCompile Include="Functional_Out.cpp" />
+    <ClCompile Include="Language_Compare.cpp" />
     <ClCompile Include="Language_In.cpp" />
     <ClCompile Include="Language_Out.cpp" />
     <ClCompile Include="main.cpp" />

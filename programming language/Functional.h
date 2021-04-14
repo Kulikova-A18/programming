@@ -3,8 +3,10 @@
 struct Functional{
 	type mKey;
 	short int Year;
+	int mRef;
 	unsigned short int mLazyCalculations;
-	enum typification{
+	enum typification
+	{
 		STRICT,
 		DYNAMIC
 	} mType;

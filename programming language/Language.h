@@ -5,4 +5,5 @@
 #include "Functional.h"
 struct Language{
 	type mKey;
+
 };

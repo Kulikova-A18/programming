@@ -4,6 +4,7 @@ using namespace std;
 ObjectOriented* InOO(ifstream& ifst);
 Procedural* InProc(ifstream& ifst);
 Functional* InFunc(ifstream& ifst);
+
 Language* In(int key, ifstream& ifst) {
 	int inh;
 	switch (key) {
