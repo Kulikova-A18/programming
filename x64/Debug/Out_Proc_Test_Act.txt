@@ -1,0 +1,4 @@
+Procedural.
+Abstrat data type: 0
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 20000

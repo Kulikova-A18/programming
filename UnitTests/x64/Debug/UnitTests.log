@@ -1,0 +1,8 @@
+﻿  unittest1.cpp
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Functional_Out.cpp(26,17): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language_In.cpp(9,6): warning C4101: inh: неиспользованная локальная переменная
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\ObjectOriented_Out.cpp(30,17): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Procedural_Out.cpp(16,17): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language_Out.cpp(54): warning C4715: YearsPassed: значение возвращается не при всех путях выполнения
+  UnitTests.vcxproj -> C:\Users\USER\Desktop\TIMP\PROC\programming\x64\Debug\UnitTests.dll
