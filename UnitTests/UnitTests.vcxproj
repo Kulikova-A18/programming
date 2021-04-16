@@ -169,17 +169,6 @@
       <Project>{a601eb08-8116-4ef0-b990-384ea6a4e8ed}</Project>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="Container_Sort.txt" />
-    <Text Include="In_Proc_Test.txt" />
-    <Text Include="Language_In_Test.txt" />
-    <Text Include="Out_Proc_Test_Act.txt" />
-    <Text Include="Out_Proc_Test_Exp.txt" />
-    <Text Include="ContainerOutputIn.txt" />
-    <Text Include="ContainerOutput.txt" />
-    <Text Include="ContainerOutputExp.txt" />
-    <Text Include="SortContainerExp.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

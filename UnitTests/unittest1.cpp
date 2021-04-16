@@ -99,7 +99,7 @@ namespace UnitTests
 			ofstream fout("SortContainerOutput.txt");
 
 			//ofstream f("SortContainerExp.txt");
-			
+
 			Container* c = new Container;
 
 			Init(*c);
@@ -124,9 +124,9 @@ namespace UnitTests
 			ifstream fin("ContainerOutputIn.txt");
 			ofstream fout("OnlyProcOutput.txt");
 			//ofstream f("OnlyProcOutputrExp.txt");
-			
+
 			Container* c = new Container;
-			
+
 			Init(*c);
 			In(*c, fin);
 

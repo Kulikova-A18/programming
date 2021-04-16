@@ -30,33 +30,4 @@
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="In_Proc_Test.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="Language_In_Test.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="Container_Sort.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="Out_Proc_Test_Act.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="Out_Proc_Test_Exp.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="ContainerOutputIn.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="ContainerOutput.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="ContainerOutputExp.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="SortContainerExp.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-  </ItemGroup>
 </Project>
