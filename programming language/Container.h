@@ -1,6 +1,9 @@
 #pragma once
 #include "Language.h"
-struct Container{
+
+struct Container {
+
 	Container *Next;
 	Language *L;
+
 };

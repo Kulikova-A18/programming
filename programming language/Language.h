@@ -3,7 +3,9 @@
 #include "Procedural.h"
 #include "ObjectOriented.h"
 #include "Functional.h"
-struct Language{
+
+struct Language {
+
 	type mKey;
 
 };

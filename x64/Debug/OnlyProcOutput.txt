@@ -1,0 +1,27 @@
+CONTAINER CONTAINS THAT ELEMENTS:
+
+0: [ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 1950
+Number of mentions of the language on the Internet: 1234
+Number of years since the year the language was created (... - now): 71
+
+
+
+
+
+
+6: [ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 2000
+Number of mentions of the language on the Internet: 222324
+Number of years since the year the language was created (... - now): 21
+
+7: [ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 2001
+Number of mentions of the language on the Internet: 252627
+Number of years since the year the language was created (... - now): 20
+
+
+
