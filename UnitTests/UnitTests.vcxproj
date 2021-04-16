@@ -179,9 +179,6 @@
     <Text Include="ContainerOutput.txt" />
     <Text Include="ContainerOutputExp.txt" />
     <Text Include="SortContainerExp.txt" />
-    <Text Include="Text3.txt" />
-    <Text Include="Text4.txt" />
-    <Text Include="Text5.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

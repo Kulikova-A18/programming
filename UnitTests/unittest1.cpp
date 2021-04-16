@@ -91,13 +91,13 @@ namespace UnitTests
 		{
 			ifstream fin("ContainerOutputIn.txt");
 			ofstream fout("SortContainerOutput.txt");
-			ofstream f("SortContainerExp.txt");
+			//ofstream f("SortContainerExp.txt");
 			Container* c = new Container;
 			Init(*c);
 			In(*c, fin);
 			Sort(c);
 			Out(*c, fout);
-			Out(*c, f);
+			//Out(*c, f);
 			fout.close();
 			ifstream fin_exp("SortContainerExp.txt");
 			ifstream fin_act("SortContainerOutput.txt");
