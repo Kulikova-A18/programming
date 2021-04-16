@@ -75,34 +75,72 @@ namespace UnitTests
 			ifstream fin("ContainerOutputIn.txt");
 			ofstream fout("ContainerOutput.txt");
 			//ofstream f("ContainerOutputExp.txt");
+
 			Container c;
 			Init(c);
 			In(c, fin);
+
 			Out(c, fout);
 			//Out(c, f);
+
 			fout.close();
+
 			ifstream fin_exp("ContainerOutputExp.txt");
 			ifstream fin_act("ContainerOutput.txt");
+
 			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
+
 			Assert::AreEqual(expected, actual, L"Не совпадает");
 		}
 		TEST_METHOD(SortContainer) //проверка на сортированный контейнер
 		{
 			ifstream fin("ContainerOutputIn.txt");
 			ofstream fout("SortContainerOutput.txt");
+
 			//ofstream f("SortContainerExp.txt");
+
 			Container* c = new Container;
+
 			Init(*c);
 			In(*c, fin);
 			Sort(c);
+
 			Out(*c, fout);
 			//Out(*c, f);
+
 			fout.close();
+
 			ifstream fin_exp("SortContainerExp.txt");
 			ifstream fin_act("SortContainerOutput.txt");
+
 			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
+
+			Assert::AreEqual(expected, actual, L"Не совпадает");
+		}
+		TEST_METHOD(OnlyProc) //проверка на вывод только процедуры
+		{
+			ifstream fin("ContainerOutputIn.txt");
+			ofstream fout("OnlyProcOutput.txt");
+			ofstream f("OnlyProcOutputrExp.txt");
+
+			Container* c = new Container;
+
+			Init(*c);
+			In(*c, fin);
+
+			ProcOut(*c, fout);
+			ProcOut(*c, f);
+
+			fout.close();
+
+			ifstream fin_exp("OnlyProcOutputrExp.txt");
+			ifstream fin_act("OnlyProcOutput.txt");
+
+			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
+			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
+
 			Assert::AreEqual(expected, actual, L"Не совпадает");
 		}
 	};
