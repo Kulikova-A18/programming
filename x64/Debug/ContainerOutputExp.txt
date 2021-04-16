@@ -1,0 +1,77 @@
+Container contains that elements:
+
+0: Procedural.
+Abstrat data type: 0
+Year of programming language: 1950
+Number of mentions of the language on the Internet: 1234
+Number of years since the year the language was created (... - now): 71
+1: Functional.
+Lazy calculations: 1
+Typification: dynamic
+Year of programming language: 1971
+Number of mentions of the language on the Internet: 5678
+Number of years since the year the language was created (... - now): 50
+2: Object-Oriented.
+Inheritance: single
+Year of programming language: 1970
+Number of mentions of the language on the Internet: 91011
+Number of years since the year the language was created (... - now): 51
+3: Object-Oriented.
+Inheritance: multiple
+Year of programming language: 1973
+Number of mentions of the language on the Internet: 121314
+Number of years since the year the language was created (... - now): 48
+4: Object-Oriented.
+Inheritance: interface
+Year of programming language: 1975
+Number of mentions of the language on the Internet: 15161718
+Number of years since the year the language was created (... - now): 46
+5: Object-Oriented.
+Inheritance: multiple
+Year of programming language: 1980
+Number of mentions of the language on the Internet: 192021
+Number of years since the year the language was created (... - now): 41
+6: Procedural.
+Abstrat data type: 1
+Year of programming language: 2000
+Number of mentions of the language on the Internet: 222324
+Number of years since the year the language was created (... - now): 21
+7: Procedural.
+Abstrat data type: 0
+Year of programming language: 2001
+Number of mentions of the language on the Internet: 252627
+Number of years since the year the language was created (... - now): 20
+8: Object-Oriented.
+Inheritance: single
+Year of programming language: 2002
+Number of mentions of the language on the Internet: 282930
+Number of years since the year the language was created (... - now): 19
+9: Object-Oriented.
+Inheritance: multiple
+Year of programming language: 2003
+Number of mentions of the language on the Internet: 313233
+Number of years since the year the language was created (... - now): 18
+
+
+10: Procedural.
+Abstrat data type: 0
+Year of programming language: 1950
+Number of mentions of the language on the Internet: 1234
+Number of years since the year the language was created (... - now): 71
+11: 
+12: 
+13: 
+14: 
+15: 
+16: Procedural.
+Abstrat data type: 1
+Year of programming language: 2000
+Number of mentions of the language on the Internet: 222324
+Number of years since the year the language was created (... - now): 21
+17: Procedural.
+Abstrat data type: 0
+Year of programming language: 2001
+Number of mentions of the language on the Internet: 252627
+Number of years since the year the language was created (... - now): 20
+18: 
+19: 
