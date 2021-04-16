@@ -23,95 +23,87 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTests
-{		
+{
 	TEST_CLASS(UnitTest1)
 	{
 	public:
-		TEST_METHOD(_YearsPassed)
-		{
-			ObjectOriented language;
-			language.Year = 2014;
-			int actual = YearsPassed(&language);
-			int expected = 2020 - language.Year;
-			Assert::AreEqual(expected, actual);
-		}
-		TEST_METHOD(TestCompareM)
-		{
-			Functional *language_new = new Functional;
-			Procedural *language_old = new Procedural;
-			language_new->mKey = type::FUNCTIONAL;
-			language_new->Year = 2020;
-			language_old->mKey = type::PROCEDURAL;
-			language_old->Year = 2010;
-			//<
-			bool actual = Compare((Language*)language_new, (Language*)language_old);
-			bool expected = true;
-			Assert::AreEqual(expected, actual, L"Все плохо");
-		}
-		TEST_METHOD(ProceduralInputM)
-		{
-			ifstream fin("In_Proc_Test.txt");
 
-			Procedural *actual = InProc(fin);
-			Procedural *expected = new Procedural;
+		TEST_METHOD(ProceduralInputM) //проверка только вводимых данных. взяли процедурный
+		{
+			ifstream fin("In_Proc_Test.txt"); //значения лежат в самом файле
 
+			Procedural* actual = InProc(fin);
+			Procedural* expected = new Procedural;
+
+			// 1 0 2000 20000
+			expected->mKey = type::PROCEDURAL;
 			expected->mAbstractDT = 0;
 			expected->Year = 2000;
-			expected->mKey = type::PROCEDURAL;
 			expected->mRef = 20000;
 
-			Assert::AreEqual(expected->mAbstractDT, actual->mAbstractDT);
-			Assert::AreEqual(expected->Year,actual->Year);
-			Assert::AreEqual((int)expected->mKey, (int)actual->mKey);
-			Assert::AreEqual(expected->mRef, actual->mRef);
+			Assert::AreEqual(expected->mAbstractDT, actual->mAbstractDT, L"Не совпадает");
+			Assert::AreEqual(expected->Year, actual->Year, L"Не совпадает");
+			Assert::AreEqual((int)expected->mKey, (int)actual->mKey, L"Не совпадает");
+			Assert::AreEqual(expected->mRef, actual->mRef, L"Не совпадает");
 		}
 		TEST_METHOD(ProceduralOutput)
 		{
-			ofstream fout("Out_Proc_Test_Act.txt");
+			ofstream fout("Out_Proc_Test_Act.txt"); //файл, куда запишем данные: 1 0 2020 20000
+			//ofstream f("Out_Proc_Test_Exp.txt");
 			Procedural* act = new Procedural;
+
+			act->mKey = type::PROCEDURAL;
 			act->mAbstractDT = 0;
 			act->Year = 2020;
-			act->mKey = type::PROCEDURAL;
 			act->mRef = 20000;
 
-			Out(act, fout);
+			Out(act, fout);//запишем данные
+			//Out(act, f);
+
 			ifstream fin_act("Out_Proc_Test_Act.txt");
-			ifstream fin_exp("Out_Proc_Test_Exp.txt");
+			ifstream fin_exp("Out_Proc_Test_Exp.txt"); //проверяем на совпадение. при любом изменении выводимого файла произойдет ошибка
+
 			string expected, actual;
+
 			getline(fin_exp, expected, '\0');
 			getline(fin_act, actual, '\0');
-			Assert::AreEqual(expected, actual, L"Не совпадает строка");
+
+			Assert::AreEqual(expected, actual, L"Не совпадает");
 		}
-		TEST_METHOD(ContainerStream)
+		TEST_METHOD(ContainerStream) //проверка реализации контейнера
 		{
 			ifstream fin("ContainerOutputIn.txt");
 			ofstream fout("ContainerOutput.txt");
+			//ofstream f("ContainerOutputExp.txt");
 			Container c;
 			Init(c);
 			In(c, fin);
 			Out(c, fout);
+			//Out(c, f);
 			fout.close();
-			ifstream fin_exp("SortContainerExp.txt");
+			ifstream fin_exp("ContainerOutputExp.txt");
 			ifstream fin_act("ContainerOutput.txt");
-			string expected((std::istreambuf_iterator<char>(fin_exp)),std::istreambuf_iterator<char>());
+			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
-			Assert::AreEqual(expected, actual);
+			Assert::AreEqual(expected, actual, L"Не совпадает");
 		}
-		TEST_METHOD(SortContainer)
+		TEST_METHOD(SortContainer) //проверка на сортированный контейнер
 		{
 			ifstream fin("ContainerOutputIn.txt");
-			ofstream fout("ContainerOutput.txt");
-			Container *c = new Container;
+			ofstream fout("SortContainerOutput.txt");
+			//ofstream f("SortContainerExp.txt");
+			Container* c = new Container;
 			Init(*c);
 			In(*c, fin);
 			Sort(c);
 			Out(*c, fout);
+			//Out(*c, f);
 			fout.close();
 			ifstream fin_exp("SortContainerExp.txt");
-			ifstream fin_act("ContainerOutput.txt");
+			ifstream fin_act("SortContainerOutput.txt");
 			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
-			Assert::AreEqual(expected, actual);
+			Assert::AreEqual(expected, actual, L"Не совпадает");
 		}
 	};
 }
