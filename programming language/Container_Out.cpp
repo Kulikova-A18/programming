@@ -50,8 +50,7 @@ void Out(Container &c, ofstream &ofst) {
 			i++;
 			ofst << endl;
 		} while (temp != &c);
-	}
-	else {
+	} else {
 		ofst << "CONTAINER IS EMPTY!" << endl;
 	}
 };
@@ -71,15 +70,13 @@ void ProcOut(Container& c, ofstream& ofst) {
 					<< YearsPassed(temp2->L) << endl;
 				ofst << endl;
 
-			}
-			else {
+			} else {
 				ofst << endl;
 			}
 			temp2 = temp2->Next;
 			i++;
 		} while (temp2 != &c);
-	}
-	else {
+	} else {
 		ofst << "CONTAINER IS EMPTY!" << endl;
 	}
 };

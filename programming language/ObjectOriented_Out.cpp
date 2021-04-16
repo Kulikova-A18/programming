@@ -11,11 +11,9 @@ void Out(ObjectOriented *o, ofstream &ofst) {
 	ofst << "Inheritance: ";
 	if (o->mInher == 0) {
 		ofst << "single";
-	}
-	else if (o->mInher == 1) {
+	} else if (o->mInher == 1) {
 		ofst << "multiple";
-	}
-	else {
+	} else {
 		ofst << "interface";
 	}
 	ofst << endl;

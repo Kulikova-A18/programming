@@ -14,8 +14,7 @@ int YearsPassed(Functional* o);
 void Out(Language* lg, ofstream& ofst) {
 	if (lg == NULL) {
 		ofst << "[ INCORRECT TYPE OF LANGUAGE ] " << endl;
-	}
-	else {
+	} else {
 		switch (lg->mKey) {
 		case type::PROCEDURAL:
 			Out((Procedural*)(lg), ofst);
@@ -43,8 +42,7 @@ int YearsPassed(Language* lg) {
 			return YearsPassed((Functional*)lg);
 			break;
 		}
-	}
-	else {
+	} else {
 		return NULL;
 	}
 };

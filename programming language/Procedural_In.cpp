@@ -31,12 +31,10 @@ Procedural * InProc(ifstream &ifst) {
 			p->Year = tail[1];
 			p->mRef = tail[2];
 			return p;
-		}
-		else {
+		} else {
 			return NULL;
 		}
-	}
-	else {
+	} else {
 		return NULL;
 	}
 }

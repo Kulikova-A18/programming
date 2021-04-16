@@ -11,8 +11,7 @@ void Out(Functional *p, ofstream &ofst) {
 	ofst << "Typification: ";
 	if (p->mType == 0) {
 		ofst << "strict";
-	}
-	else if (p->mType == 1) {
+	} else if (p->mType == 1) {
 		ofst << "dynamic";
 	}
 	ofst << "Year of programming language: " << p->Year << endl;

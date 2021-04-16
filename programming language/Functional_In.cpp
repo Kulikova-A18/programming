@@ -33,15 +33,12 @@ Functional* InFunc(ifstream& ifst) {
 				f->Year = tail[2];
 				f->mRef = tail[3];
 				return f;
-			}
-			else
+			} else
 				return NULL;
-		}
-		else {
+		} else {
 			return NULL;
 		}
-	}
-	else {
+	} else {
 		return NULL;
 	}
 }
