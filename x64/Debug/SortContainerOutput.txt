@@ -1,0 +1,30 @@
+Container contains that elements:
+
+0: Functional.
+Lazy calculations: 1
+Typification: strict
+Year of programming language: 1860
+Number of mentions of the language on the Internet: 4
+Number of years since the year the language was created (... - now): 161
+1: Functional.
+Lazy calculations: 1
+Typification: dynamic
+Year of programming language: 1870
+Number of mentions of the language on the Internet: 3
+Number of years since the year the language was created (... - now): 151
+2: Object-Oriented.
+Inheritance: multiple
+Year of programming language: 1890
+Number of mentions of the language on the Internet: 2
+Number of years since the year the language was created (... - now): 131
+3: Object-Oriented.
+Inheritance: single
+Year of programming language: 1999
+Number of mentions of the language on the Internet: 1
+Number of years since the year the language was created (... - now): 22
+
+
+4: 
+5: 
+6: 
+7: 
