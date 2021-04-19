@@ -29,3 +29,29 @@ void Out(Container &c, ofstream &ofst) {
 		ofst << "Container is empty!" << endl;
 	}
 };
+
+void Sort(Container*& c) {
+	//if container contains 1 element, do nothing
+	if (c == c->Next) {
+		return;
+	}
+	Container* current = c;
+
+	bool flag = false;
+	Language* temp;
+	//buble sort
+	do {
+		current = c;
+		//if we didnt swap elements container is sorted
+		flag = false;
+		do {
+			if (Compare(current->L, current->Next->L)) {
+				temp = current->L;
+				current->L = current->Next->L;
+				current->Next->L = temp;
+				flag = true;
+			}
+			current = current->Next;
+		} while (current->Next != c);
+	} while (flag);
+};
