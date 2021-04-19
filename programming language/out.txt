@@ -33,6 +33,25 @@ Number of mentions of the language on the Internet: 12
 Number of years since the year the language was created (... - now): 22
 
 
+Only Procedure.
+Container contains that elements:
+
+0: 
+1: Procedural.
+Abstrat data type: 0
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 1021
+Number of years since the year the language was created (... - now): 1
+2: 
+3: 
+4: 
+5: Procedural.
+Abstrat data type: 1
+Year of programming language: 1999
+Number of mentions of the language on the Internet: 12
+Number of years since the year the language was created (... - now): 22
+
+
 Sorted Container.
 Container contains that elements:
 
@@ -67,6 +86,25 @@ Inheritance: single
 Year of programming language: 2020
 Number of mentions of the language on the Internet: 234
 Number of years since the year the language was created (... - now): 1
+
+
+Only Procedure.
+Container contains that elements:
+
+0: 
+1: 
+2: Procedural.
+Abstrat data type: 1
+Year of programming language: 1999
+Number of mentions of the language on the Internet: 12
+Number of years since the year the language was created (... - now): 22
+3: 
+4: Procedural.
+Abstrat data type: 0
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 1021
+Number of years since the year the language was created (... - now): 1
+5: 
 
 
 Cleared Container.

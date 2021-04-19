@@ -55,3 +55,28 @@ void Sort(Container*& c) {
 		} while (current->Next != c);
 	} while (flag);
 };
+
+void ProcOut(Container& c, ofstream& ofst) {
+	if (&c != nullptr) {
+		ofst << "Container contains that elements:" << endl;
+		ofst << endl;
+		Container* temp2;
+		temp2 = &c;
+		int i = 0;
+		do {
+			ofst << i << ": ";
+			if (temp2->L != NULL && temp2->L->mKey == type::PROCEDURAL) {
+				Out(temp2->L, ofst);
+				ofst << "Number of years since the year the language was created (... - now): " << YearsPassed(temp2->L) << endl;
+			}
+			else {
+				ofst << endl;
+			}
+			temp2 = temp2->Next;
+			i++;
+		} while (temp2 != &c);
+	}
+	else {
+		ofst << "Container is empty!" << endl;
+	}
+}
