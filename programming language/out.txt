@@ -1,60 +1,46 @@
 CONTAINER CONTAINS THAT ELEMENTS:
-
 0: [ FUNCTIONAL ]
 Lazy calculations: 1
 Typification: dynamicYear of programming language: 1900
 Number of mentions of the language on the Internet: 123456
 Number of years since the year the language was created (... - now): 121
 
-1: [ INCORRECT TYPE OF LANGUAGE ] 
-Number of years since the year the language was created (... - now): 0
-
-2: [ OBJECT-ORIENTED ]
-Inheritance: multiple
-Year of programming language: 2004
-Number of mentions of the language on the Internet: 12414
-Number of years since the year the language was created (... - now): 17
-
-3: [ INCORRECT TYPE OF LANGUAGE ] 
-Number of years since the year the language was created (... - now): 0
-
-4: [ OBJECT-ORIENTED ]
-Inheritance: interface
-Year of programming language: 1980
-Number of mentions of the language on the Internet: 324342
-Number of years since the year the language was created (... - now): 41
-
-5: [ PROCEDURAL ]
+1: [ PROCEDURAL ]
 Abstrat data type: 1
-Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
-Number of years since the year the language was created (... - now): 22
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+Number of years since the year the language was created (... - now): 1
 
-6: [ INCORRECT TYPE OF LANGUAGE ] 
+2: [ INCORRECT TYPE OF LANGUAGE ] 
+Number of years since the year the language was created (... - now): 0
+
+3: [ OBJECT-ORIENTED ]
+Inheritance: multiple
+Year of programming language: 1989
+Number of mentions of the language on the Internet: 13432
+Number of years since the year the language was created (... - now): 32
+
+4: [ INCORRECT TYPE OF LANGUAGE ] 
 Number of years since the year the language was created (... - now): 0
 
 
 
 ONLY PROCEDURE.
 CONTAINER CONTAINS THAT ELEMENTS:
-
-
-
-
-
-
-5: [ PROCEDURAL ]
+0: 
+1: [ PROCEDURAL ]
 Abstrat data type: 1
-Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
-Number of years since the year the language was created (... - now): 22
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+Number of years since the year the language was created (... - now): 1
 
-
+2: 
+3: 
+4: 
 
 
 SORTED CONTAINER.
 CONTAINER CONTAINS THAT ELEMENTS:
-
 0: [ FUNCTIONAL ]
 Lazy calculations: 1
 Typification: dynamicYear of programming language: 1900
@@ -62,48 +48,125 @@ Number of mentions of the language on the Internet: 123456
 Number of years since the year the language was created (... - now): 121
 
 1: [ OBJECT-ORIENTED ]
-Inheritance: interface
-Year of programming language: 1980
-Number of mentions of the language on the Internet: 324342
-Number of years since the year the language was created (... - now): 41
+Inheritance: multiple
+Year of programming language: 1989
+Number of mentions of the language on the Internet: 13432
+Number of years since the year the language was created (... - now): 32
 
 2: [ PROCEDURAL ]
 Abstrat data type: 1
-Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
-Number of years since the year the language was created (... - now): 22
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+Number of years since the year the language was created (... - now): 1
 
-3: [ OBJECT-ORIENTED ]
-Inheritance: multiple
-Year of programming language: 2004
-Number of mentions of the language on the Internet: 12414
-Number of years since the year the language was created (... - now): 17
+3: [ INCORRECT TYPE OF LANGUAGE ] 
+Number of years since the year the language was created (... - now): 0
 
 4: [ INCORRECT TYPE OF LANGUAGE ] 
-Number of years since the year the language was created (... - now): 0
-
-5: [ INCORRECT TYPE OF LANGUAGE ] 
-Number of years since the year the language was created (... - now): 0
-
-6: [ INCORRECT TYPE OF LANGUAGE ] 
 Number of years since the year the language was created (... - now): 0
 
 
 
 ONLY PROCEDURE.
 CONTAINER CONTAINS THAT ELEMENTS:
-
-
-
+0: 
+1: 
 2: [ PROCEDURAL ]
 Abstrat data type: 1
-Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
-Number of years since the year the language was created (... - now): 22
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+Number of years since the year the language was created (... - now): 1
+
+3: 
+4: 
 
 
+Multimethod.
+0: Functional and OOP.
+[ FUNCTIONAL ]
+Lazy calculations: 1
+Typification: dynamicYear of programming language: 1900
+Number of mentions of the language on the Internet: 123456
 
+[ OBJECT-ORIENTED ]
+Inheritance: multiple
+Year of programming language: 1989
+Number of mentions of the language on the Internet: 13432
 
+1: Functional and Procedural.
+[ FUNCTIONAL ]
+Lazy calculations: 1
+Typification: dynamicYear of programming language: 1900
+Number of mentions of the language on the Internet: 123456
+
+[ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+
+2: Unknown type.
+[ FUNCTIONAL ]
+Lazy calculations: 1
+Typification: dynamicYear of programming language: 1900
+Number of mentions of the language on the Internet: 123456
+
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+3: Unknown type.
+[ FUNCTIONAL ]
+Lazy calculations: 1
+Typification: dynamicYear of programming language: 1900
+Number of mentions of the language on the Internet: 123456
+
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+4: OOP and Procedural.
+[ OBJECT-ORIENTED ]
+Inheritance: multiple
+Year of programming language: 1989
+Number of mentions of the language on the Internet: 13432
+
+[ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+
+5: Unknown type.
+[ OBJECT-ORIENTED ]
+Inheritance: multiple
+Year of programming language: 1989
+Number of mentions of the language on the Internet: 13432
+
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+6: Unknown type.
+[ OBJECT-ORIENTED ]
+Inheritance: multiple
+Year of programming language: 1989
+Number of mentions of the language on the Internet: 13432
+
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+7: Unknown type.
+[ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+8: Unknown type.
+[ PROCEDURAL ]
+Abstrat data type: 1
+Year of programming language: 2020
+Number of mentions of the language on the Internet: 102421
+
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+9: Unknown type.
+[ INCORRECT TYPE OF LANGUAGE ] 
+
+[ INCORRECT TYPE OF LANGUAGE ] 
 
 
 

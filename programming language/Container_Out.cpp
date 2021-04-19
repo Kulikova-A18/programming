@@ -11,17 +11,19 @@ bool Compare(Language* first, Language* second);
 void Sort(Container*& c) {
 	//если контейнер содержит 1 элемент, ничего не делать
 	if (c == c->Next) {
-
 		return;
 	}
+
 	Container* current = c;
 	bool flag = false;
 	Language* temp;
+
 	//Сортировка пузырьком
 	do {
 		current = c;
 		//если бы мы не отсортировали контейнер со сменными элементами
 		flag = false;
+
 		do {
 			if (Compare(current->L, current->Next->L)) {
 				temp = current->L;
@@ -39,10 +41,9 @@ void Out(Container &c, ofstream &ofst) {
 		ofst << "CONTAINER CONTAINS THAT ELEMENTS:" << endl;
 		Container* temp, * temp2;
 		temp = &c;
-		temp2 = &c;
 		int i = 0;
-		ofst << i << ": ";
 		do {
+			ofst << i << ": ";
 			Out(temp->L, ofst);
 			ofst << "Number of years since the year the language was created (... - now): " 
 				<< YearsPassed(temp->L) << endl;
@@ -62,8 +63,8 @@ void ProcOut(Container& c, ofstream& ofst) {
 		temp2 = &c;
 		int i = 0;
 		do {
+			ofst << i << ": ";
 			if (temp2->L != NULL && temp2->L->mKey == type::PROCEDURAL) {
-				ofst << i << ": ";
 				Out(temp2->L, ofst);
 				
 				ofst << "Number of years since the year the language was created (... - now): " 
@@ -76,7 +77,8 @@ void ProcOut(Container& c, ofstream& ofst) {
 			temp2 = temp2->Next;
 			i++;
 		} while (temp2 != &c);
-	} else {
+	} 
+	else {
 		ofst << "CONTAINER IS EMPTY!" << endl;
 	}
 };

@@ -1,3 +1,4 @@
-﻿  main.cpp
+﻿  Container_Out.cpp
 C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Container_Out.cpp(42,22): warning C4101: temp2: неиспользованная локальная переменная
   programming language.vcxproj -> C:\Users\USER\Desktop\TIMP\PROC\programming\x64\Debug\programming language.exe

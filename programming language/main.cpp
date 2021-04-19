@@ -11,6 +11,7 @@ void In(Container &c, ifstream &ifst);
 void Out(Container &c, ofstream &ofst);
 void ProcOut(Container& c, ofstream& ofst);
 void Sort(Container*& c);
+void MultiMethod(Container& c, ofstream& ofst);
 
 int main(int argc, char* argv[]) {
 	if (argc != 3) {
@@ -29,6 +30,7 @@ int main(int argc, char* argv[]) {
 	//Вывод только процедуры
 	ofst << "\n\nONLY PROCEDURE." << endl;
 	ProcOut(*c, ofst);
+
 	//Вывод сортированного контейнера
 	cout << "The Sort!" << endl;
 	ofst << "\n\nSORTED CONTAINER." << endl;	
@@ -38,6 +40,11 @@ int main(int argc, char* argv[]) {
 	//Вывод только процедуры
 	ofst << "\n\nONLY PROCEDURE." << endl;
 	ProcOut(*c, ofst);
+	
+	// Мультиметод
+	cout << "The MultiMethod!" << endl;
+	ofst << endl;
+	MultiMethod(*c, ofst);
 
 	//очистка
 	ofst << "\n\nCLEARED CONTAINER." << endl;

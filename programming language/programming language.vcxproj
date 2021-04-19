@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="Container_Constr.cpp" />
     <ClCompile Include="Container_In.cpp" />
+    <ClCompile Include="Container_Mult.cpp" />
     <ClCompile Include="Container_Out.cpp" />
     <ClCompile Include="Functional_In.cpp" />
     <ClCompile Include="Functional_Out.cpp" />
