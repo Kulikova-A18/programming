@@ -16,20 +16,10 @@ Inheritance: multiple
 Year of programming language: 2004
 Number of mentions of the language on the Internet: 12414
 Number of years since the year the language was created (... - now): 17
-3: Object-Oriented.
-Inheritance: single
-Year of programming language: 2020
-Number of mentions of the language on the Internet: 234
-Number of years since the year the language was created (... - now): 1
-4: Object-Oriented.
-Inheritance: interface
-Year of programming language: 1980
-Number of mentions of the language on the Internet: 324342
-Number of years since the year the language was created (... - now): 41
-5: Procedural.
+3: Procedural.
 Abstrat data type: 1
 Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
+Number of mentions of the language on the Internet: 1234
 Number of years since the year the language was created (... - now): 22
 
 
@@ -43,12 +33,10 @@ Year of programming language: 2020
 Number of mentions of the language on the Internet: 1021
 Number of years since the year the language was created (... - now): 1
 2: 
-3: 
-4: 
-5: Procedural.
+3: Procedural.
 Abstrat data type: 1
 Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
+Number of mentions of the language on the Internet: 1234
 Number of years since the year the language was created (... - now): 22
 
 
@@ -61,30 +49,20 @@ Typification: dynamic
 Year of programming language: 1900
 Number of mentions of the language on the Internet: 123456
 Number of years since the year the language was created (... - now): 121
-1: Object-Oriented.
-Inheritance: interface
-Year of programming language: 1980
-Number of mentions of the language on the Internet: 324342
-Number of years since the year the language was created (... - now): 41
-2: Procedural.
+1: Procedural.
 Abstrat data type: 1
 Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
+Number of mentions of the language on the Internet: 1234
 Number of years since the year the language was created (... - now): 22
-3: Object-Oriented.
+2: Object-Oriented.
 Inheritance: multiple
 Year of programming language: 2004
 Number of mentions of the language on the Internet: 12414
 Number of years since the year the language was created (... - now): 17
-4: Procedural.
+3: Procedural.
 Abstrat data type: 0
 Year of programming language: 2020
 Number of mentions of the language on the Internet: 1021
-Number of years since the year the language was created (... - now): 1
-5: Object-Oriented.
-Inheritance: single
-Year of programming language: 2020
-Number of mentions of the language on the Internet: 234
 Number of years since the year the language was created (... - now): 1
 
 
@@ -92,19 +70,17 @@ Only Procedure.
 Container contains that elements:
 
 0: 
-1: 
-2: Procedural.
+1: Procedural.
 Abstrat data type: 1
 Year of programming language: 1999
-Number of mentions of the language on the Internet: 12
+Number of mentions of the language on the Internet: 1234
 Number of years since the year the language was created (... - now): 22
-3: 
-4: Procedural.
+2: 
+3: Procedural.
 Abstrat data type: 0
 Year of programming language: 2020
 Number of mentions of the language on the Internet: 1021
 Number of years since the year the language was created (... - now): 1
-5: 
 
 
 Cleared Container.
