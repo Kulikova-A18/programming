@@ -20,6 +20,6 @@ C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10
   main.cpp
 C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   Создание кода...
-C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language_Out.cpp(54): warning C4715: YearsPassed: значение возвращается не при всех путях выполнения
+C:\Users\USER\Desktop\TIMP\PROC\programming\programming language\Language_Out.cpp(56): warning C4715: YearsPassed: значение возвращается не при всех путях выполнения
   LINK : не найден или не выполнена сборка C:\Users\USER\Desktop\TIMP\PROC\programming\x64\Debug\programming language.exe при последней инкрементной компоновке; выполняется полная компоновка
   programming language.vcxproj -> C:\Users\USER\Desktop\TIMP\PROC\programming\x64\Debug\programming language.exe

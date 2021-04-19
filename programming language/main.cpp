@@ -9,8 +9,6 @@ void Clear(Container *&c);
 void In(Container &c, ifstream &ifst);
 void Out(Container &c, ofstream &ofst);
 
-void Sort(Container*& c);
-
 int main(int argc, char* argv[]) {
 	if (argc != 3) {
 		cout << "incorrect command line! Waited: command in_file out_file" << endl;

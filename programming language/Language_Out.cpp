@@ -38,9 +38,11 @@ int YearsPassed(Language* lg)
 		case type::PROCEDURAL:
 			return YearsPassed((Procedural*)(lg));
 			break;
+
 		case type::OBJORIENTED:
 			return YearsPassed((ObjectOriented*)lg);
 			break;
+
 		case type::FUNCTIONAL:
 			return YearsPassed((Functional*)lg);
 			break;

@@ -8,6 +8,7 @@ Functional* InFunc(ifstream& ifst) {
 	f->mKey = type::FUNCTIONAL;
 	int inh;
 	ifst >> inh;
+
 	if (inh == 1 || inh == 0) {
 		f->mLazyCalculations = inh;
 	}
@@ -20,6 +21,7 @@ Functional* InFunc(ifstream& ifst) {
 		return NULL;
 	}
 	ifst >> inh;
+	
 	if (inh == 0) {
 		f->mType = Functional::STRICT;
 	}
@@ -34,6 +36,7 @@ Functional* InFunc(ifstream& ifst) {
 		}
 		return NULL;
 	}
+
 	ifst >> f->Year;
 	ifst >> f->mRef;
 	return f;

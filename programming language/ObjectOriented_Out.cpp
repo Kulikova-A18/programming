@@ -1,5 +1,5 @@
-//#pragma once
 #define _CRT_SECURE_NO_WARNINGS
+
 #include <fstream>
 #include "ObjectOriented.h"
 #include <ctime>
@@ -19,6 +19,7 @@ void Out(ObjectOriented *o, ofstream &ofst) {
 	else {
 		ofst << "interface";
 	}
+
 	ofst << endl;
 	ofst << "Year of programming language: " << o->Year << endl;
 	ofst << "Number of mentions of the language on the Internet: " << o->mRef << endl;

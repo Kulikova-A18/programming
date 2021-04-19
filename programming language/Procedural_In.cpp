@@ -1,6 +1,8 @@
 #include <fstream>
 #include "Procedural.h"
+
 using namespace std;
+
 Procedural * InProc(ifstream &ifst) {
 
 	Procedural * p;
@@ -8,14 +10,14 @@ Procedural * InProc(ifstream &ifst) {
 	p->mKey = type::PROCEDURAL;
 	int inh;
 	ifst >> inh;
-	if (inh == 1 || inh == 0) {
 
+	if (inh == 1 || inh == 0) {
 		p->mAbstractDT = inh;
 		ifst >> p->Year;
 		ifst >> p->mRef;
 		return p;
 	}
-	else{
+	else {
 		char b;
 		ifst >> b;
 		while (!ifst.eof() && ifst.peek() != '\n') {

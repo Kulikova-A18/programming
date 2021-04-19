@@ -9,10 +9,10 @@ void Out(Functional *p, ofstream &ofst) {
 	ofst << "Functional." << endl;
 	ofst << "Lazy calculations: " << p->mLazyCalculations << endl;
 	ofst << "Typification: ";
-	if (p->mType == 0){
+	if (p->mType == 0) {
 		ofst << "strict";
 	}
-	else if (p->mType == 1){
+	else if (p->mType == 1) {
 		ofst << "dynamic";
 	}
 	ofst << endl;
@@ -20,6 +20,7 @@ void Out(Functional *p, ofstream &ofst) {
 	ofst << "Number of mentions of the language on the Internet: " << p->mRef << endl;
 	//ofst << endl;
 };
+
 int YearsPassed(Functional* p)
 {
 	time_t seconds = time(NULL);
