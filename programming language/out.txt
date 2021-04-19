@@ -1,27 +1,44 @@
 Container contains that elements:
 
-0: Incorrect type of language!
+0: Procedural.
+Abstrat data type = 1
+Year of programming language:1950
 
 1: Procedural.
 Abstrat data type = 0
 Year of programming language:1953
 
-2: Procedural.
-Abstrat data type = 1
-Year of programming language:1971
-
-3: Object-Oriented.
-Inheritance: single
-Year of programming language:1970
-
-4: Object-Oriented.
-Inheritance: interface
-Year of programming language:1975
-
-5: Incorrect type of language!
-
-6: Object-Oriented.
+2: Object-Oriented.
 Inheritance: multiple
-Year of programming language:2010
+Year of programming language:1973
+
+
+Multimethod.
+0: Procedural and Procedural.
+Procedural.
+Abstrat data type = 1
+Year of programming language:1950
+
+Procedural.
+Abstrat data type = 0
+Year of programming language:1953
+
+1: Procedural and OOP.
+Procedural.
+Abstrat data type = 1
+Year of programming language:1950
+
+Object-Oriented.
+Inheritance: multiple
+Year of programming language:1973
+
+2: Procedural and OOP.
+Procedural.
+Abstrat data type = 0
+Year of programming language:1953
+
+Object-Oriented.
+Inheritance: multiple
+Year of programming language:1973
 
 Container is empty!
