@@ -23,12 +23,6 @@ int main(int argc, char* argv[]) {
 	Init(*c);
 	In(*c, ifst);
 	Out(*c, ofst);
-
-	cout << "The Sort!" << endl;
-	ofst << endl << endl << "Sorted Container." << endl;
-	Sort(c);
-	Out(*c, ofst);
-
 	ofst << endl << endl << "Cleared Container." << endl;
 	Clear(c);
 	Out(*c, ofst);
