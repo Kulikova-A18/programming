@@ -32,10 +32,12 @@ ObjectOriented * InOO(ifstream &ifst) {
 			o->Year = tail[1];
 			o->mRef = tail[2];
 			return o;
-		} else {
+		} 
+		else {
 			return NULL;
 		}
-	} else {
+	} 
+	else {
 		return NULL;
 	}
 }

@@ -10,12 +10,16 @@ Functional* InFunc(ifstream& ifst);
 Language* In(int key, ifstream& ifst) {
 	int inh;
 	switch (key) {
+
 	case 1:
 		return (Language*)InProc(ifst);
+
 	case 2:
 		return (Language*)InOO(ifst);
+
 	case 3:
 		return (Language*)InFunc(ifst);
+
 	default:
 		char b;
 		ifst >> b;
@@ -31,6 +35,7 @@ Language* In(ifstream& ifst) {
 	int k;
 	ifst >> k;
 	if (ifst.fail()) {
+
 		//Восстановили поток
 		ifst.clear();
 		ifst.ignore(numeric_limits<streamsize>::max(), '\n');

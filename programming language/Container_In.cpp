@@ -10,7 +10,8 @@ void In(Container &c, ifstream &ifst) {
 		Container *temp = new Container;
 		if ((&c == c.Next)&&(!ifst.tellg())) {
 			c.L = In(ifst);
-		} else {	
+		} 
+		else {	
 			//идем на последний элемент
 			Container *counter = c.Next;
 			while(counter->Next != &c) {

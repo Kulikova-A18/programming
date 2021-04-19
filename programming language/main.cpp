@@ -19,25 +19,31 @@ int main(int argc, char* argv[]) {
 	}
 	ifstream ifst(argv[1]);
 	ofstream ofst(argv[2]);
+
 	cout << "The Start!" << endl;
 	Container *c = new Container;
 	Init(*c);
 	In(*c, ifst);
 	Out(*c, ofst);
+
 	//Вывод только процедуры
-	ofst << endl << endl << "ONLY PROCEDURE." << endl;
+	ofst << "\n\nONLY PROCEDURE." << endl;
 	ProcOut(*c, ofst);
+	//Вывод сортированного контейнера
 	cout << "The Sort!" << endl;
-	ofst << endl << endl << "SORTED CONTAINER." << endl;	
+	ofst << "\n\nSORTED CONTAINER." << endl;	
 	Sort(c);
 	Out(*c, ofst);
+
 	//Вывод только процедуры
-	ofst << endl << endl << "ONLY PROCEDURE." << endl;
+	ofst << "\n\nONLY PROCEDURE." << endl;
 	ProcOut(*c, ofst);
+
 	//очистка
-	ofst << endl << endl << "CLEARED CONTAINER." << endl;
+	ofst << "\n\nCLEARED CONTAINER." << endl;
 	Clear(c);
 	Out(*c, ofst);
+
 	cout << "The Finish!" << endl;
 	system("pause");
 	return 0; 

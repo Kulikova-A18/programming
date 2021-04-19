@@ -8,9 +8,11 @@ Procedural * InProc(ifstream &ifst) {
 	Procedural * p;
 	p = new Procedural;
 	p->mKey = type::PROCEDURAL;
+
 	int inh;
 	bool flag = true;
 	vector<int> tail;
+
 	do {
 		ifst >> inh;
 		if (ifst.fail()) {

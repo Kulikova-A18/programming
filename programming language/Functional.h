@@ -6,6 +6,7 @@ struct Functional {
 	short int Year;
 	int mRef;
 	unsigned short int mLazyCalculations;
+
 	enum typification {
 		STRICT,
 		DYNAMIC
